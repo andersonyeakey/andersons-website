@@ -9,11 +9,9 @@
     },
     "git": {
         "deploymentEnabled": {
-            "main": true,
-            "*": false
+            "main": true
         }
     },
     "regions": [ "cle1" ],
-
     "trailingSlash": false
 }
