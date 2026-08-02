@@ -1,7 +1,6 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
     "cleanUrls": true,
-    "functionFailoverRegions": [ "iad1", "yul1" ],
     "functions": {
         "api/*.php": {
             "runtime": "vercel-php@0.9.0"
