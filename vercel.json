@@ -25,7 +25,7 @@
         },
         {
             "source": "/projects",
-            "destination": "/api/projects/index"
+            "destination": "/api/projects"
         },
         {
             "source": "/demos",
@@ -33,15 +33,15 @@
         },
         {
             "source": "/projects/jeopardybuilder",
-            "destination": "/api/projects/jeopardybuilder"
+            "destination": "/api/jeopardybuilder"
         },
         {
             "source": "/projects/weathertracker",
-            "destination": "/api/projects/weathertracker"
+            "destination": "/api/weathertracker"
         },
         {
             "source": "/projects/receiptscanner",
-            "destination": "/api/projects/receiptscanner"
+            "destination": "/api/receiptscanner"
         }
     ],
     "trailingSlash": false
