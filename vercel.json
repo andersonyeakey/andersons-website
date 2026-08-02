@@ -16,8 +16,32 @@
     "regions": [ "cle1" ],
     "rewrites": [
         {
-            "source": "/:path*",
-            "destination": "/api/:path*"
+            "source": "/",
+            "destination": "/api/index"
+        },
+        {
+            "source": "/about",
+            "destination": "/api/about"
+        },
+        {
+            "source": "/projects",
+            "destination": "/api/projects/index"
+        },
+        {
+            "source": "/demos",
+            "destination": "/api/demos"
+        },
+        {
+            "source": "/projects/jeopardybuilder",
+            "destination": "/api/projects/jeopardybuilder"
+        },
+        {
+            "source": "/projects/weathertracker",
+            "destination": "/api/projects/weathertracker"
+        },
+        {
+            "source": "/projects/receiptscanner",
+            "destination": "/api/projects/receiptscanner"
         }
     ],
     "trailingSlash": false
