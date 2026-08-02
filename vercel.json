@@ -9,8 +9,8 @@
     "git": {
         "deploymentEnabled": {
             "main": true,
-            "dev/": false,
-            "test/":  false
+            "dev/*": false,
+            "test/*":  false
         }
     },
     "regions": [ "cle1" ],
