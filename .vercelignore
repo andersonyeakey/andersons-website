@@ -1,0 +1,5 @@
+.env*
+.git
+.gitignore
+.vercel
+.vs
