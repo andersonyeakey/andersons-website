@@ -8,6 +8,24 @@ html, body {
     padding: 0%;
 }
 
+circle {
+    transform-origin: 50% 50%;
+}
+
+img {
+    transform-origin: 0 0;
+}
+
+#left-item text {
+    rotate: clamp(-0.45turn, calc(-0.275turn - acos(var(--aspect-ratio))), -0.333turn);
+    transform-origin: 50% 50%;
+}
+
+#right-item text {
+    rotate: clamp(0.333turn, calc(0.275turn + acos(var(--aspect-ratio))), 0.45turn);
+    transform-origin: 50% 50%;
+}
+
 #left-item {
     rotate: clamp(0.333turn, calc(0.275turn + acos(var(--aspect-ratio))), 0.45turn);
 }
@@ -22,7 +40,20 @@ html, body {
     transform-origin: 0 calc(-1 * var(--orbit-radius));
 }
 
+.orbiting text {
+    pointer-events: none;
+}
+
 .floating {
     position: fixed;
     transform: translate(-50%, -50%);
+}
+
+.interactive {
+    transition: 0.1s ease-in-out;
+}
+
+.interactive:hover {
+    cursor: pointer;
+    scale: 1.2;
 }
