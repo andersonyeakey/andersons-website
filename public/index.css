@@ -3,17 +3,24 @@
     --orbit-padding: 30vw;
 }
 
-html, body {
-    margin: 0%;
-    padding: 0%;
-}
-
 circle {
     transform-origin: 50% 50%;
 }
 
+h1 {
+    font-family: "Basically A Mono SemiBold";
+}
+
 img {
     transform-origin: 0 0;
+}
+
+text {
+    font-family: "JetBrains Mono";
+}
+
+#left-item {
+    rotate: clamp(0.333turn, calc(0.275turn + acos(var(--aspect-ratio))), 0.45turn);
 }
 
 #left-item text {
@@ -21,27 +28,21 @@ img {
     transform-origin: 50% 50%;
 }
 
-#right-item text {
-    rotate: clamp(0.333turn, calc(0.275turn + acos(var(--aspect-ratio))), 0.45turn);
-    transform-origin: 50% 50%;
-}
-
-#left-item {
-    rotate: clamp(0.333turn, calc(0.275turn + acos(var(--aspect-ratio))), 0.45turn);
+#profile-img {
+    top: 50%;
+    left: 50%;
+    width: 30vh;
+    border-radius: 50%;
+    border: 4px solid black;
 }
 
 #right-item {
     rotate: clamp(-0.45turn, calc(-0.275turn - acos(var(--aspect-ratio))), -0.333turn);
 }
 
-.orbiting {
-    top: calc(50vh + var(--orbit-radius));
-    left: 50vw;
-    transform-origin: 0 calc(-1 * var(--orbit-radius));
-}
-
-.orbiting text {
-    pointer-events: none;
+#right-item text {
+    rotate: clamp(0.333turn, calc(0.275turn + acos(var(--aspect-ratio))), 0.45turn);
+    transform-origin: 50% 50%;
 }
 
 .floating {
@@ -57,3 +58,14 @@ img {
     cursor: pointer;
     scale: 1.2;
 }
+
+.orbiting {
+    top: calc(50vh + var(--orbit-radius));
+    left: 50vw;
+    transform-origin: 0 calc(-1 * var(--orbit-radius));
+}
+
+.orbiting text {
+    pointer-events: none;
+}
+
