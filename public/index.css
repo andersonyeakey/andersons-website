@@ -1,0 +1,29 @@
+:root {
+    --orbit-radius: 30vh;
+    --orbit-padding: 30vw;
+}
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#left-item {
+    top: 30vh;
+    left: max(calc(50vw - sin(60deg) * 30vh), var(--orbit-padding));
+}
+
+#right-item {
+    top: 30vh;
+    left: min(calc(50vw + sin(60deg) * 30vh), 100vw - var(--orbit-padding));
+}
+
+#bottom-item {
+    top: 80vh;
+    left: 50vw;
+}
+
+.floating {
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
