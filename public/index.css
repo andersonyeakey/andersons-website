@@ -9,18 +9,17 @@ html, body {
 }
 
 #left-item {
-    top: 30vh;
-    left: max(calc(50vw - sin(60deg) * 30vh), var(--orbit-padding));
+    rotate: clamp(0.333turn, calc(0.275turn + acos(var(--aspect-ratio))), 0.45turn);
 }
 
 #right-item {
-    top: 30vh;
-    left: min(calc(50vw + sin(60deg) * 30vh), 100vw - var(--orbit-padding));
+    rotate: clamp(-0.45turn, calc(-0.275turn - acos(var(--aspect-ratio))), -0.333turn);
 }
 
-#bottom-item {
-    top: 80vh;
+.orbiting {
+    top: calc(50vh + var(--orbit-radius));
     left: 50vw;
+    transform-origin: 0 calc(-1 * var(--orbit-radius));
 }
 
 .floating {
