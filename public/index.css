@@ -9,6 +9,16 @@ circle {
 
 h1 {
     font-family: "Basically A Mono SemiBold";
+    font-size: clamp(3em, 8vw, 6em);
+}
+
+h1 span {
+    display: inline-block;
+    transition: 0.3s ease-out;
+}
+
+h1 span:hover {
+    rotate: y 0.5turn;
 }
 
 img {

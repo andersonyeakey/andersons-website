@@ -12,7 +12,10 @@
 
     <body>
         <main>
-            <h1 style="font-size:6em;">Anderson Yeakey</h1>
+            
+            <h1>
+                <span>A</span><span>n</span><span>d</span><span>e</span><span>r</span><span>s</span><span>o</span><span>n</span> <span>Y</span><span>e</span><span>a</span><span>k</span><span>e</span><span>y</span>
+            </h1>
 
             <img id="profile-img" class="floating interactive" src="../public/mainprofile.jpg" alt="Anderson Yeakey's Profile Picture" fetchpriority="high">
 
