@@ -1,0 +1,17 @@
+a {
+    font-family: "JetBrains Mono";
+    font-size: 4em;
+    text-align: center;
+}
+
+body {
+    display: grid;
+    grid-auto-columns: auto;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Basically A Mono SemiBold";
+    font-size: 6em;
+}
