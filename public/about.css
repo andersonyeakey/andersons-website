@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+hr {
+    width: 100%;
+}
+
+main {
+    margin: auto;
+    padding: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(81, 163, 163, 0.5);
+    border-radius: 15px;
+    padding: 2vh;
+    margin: 1.5vh;
+    width: 15vh;
+}
+
+#secondary-profile-img {
+    width: 30vh;
+    align-self: center;
+    justify-self: center;
+    border-radius: 15px;
+    margin: 1.5vh;
+}
+
+@media (height >= 75vw) {
+    html, body {
+        overflow: scroll;
+    }
+
+    main {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    section {
+        width: min(65vh, 85vw);
+    }
+}
