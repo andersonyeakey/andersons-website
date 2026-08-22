@@ -5,8 +5,12 @@ body {
 
 footer {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
     bottom: 0;
     left: 0;
+    padding: 1vh;
 }
 
 h2 {
@@ -28,14 +32,37 @@ main {
     flex-direction: row;
 }
 
+path {
+    width: 100%;
+}
+
 section {
     display: flex;
     flex-direction: column;
-    background-color: rgba(81, 163, 163, 0.5);
+    background-color: rgb(81, 163, 163);
     border-radius: 15px;
     padding: 2vh;
     margin: 1.5vh;
     width: 15vh;
+}
+
+.contactinfo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+}
+
+.contactinfo > div {
+    align-content: center;
+    background-color: rgb(81, 163, 163);
+    border-radius: 15px;
+    height: 0%;
+    padding: 1vh;
+}
+
+.contactinfo > svg {
+    cursor: pointer;
 }
 
 #secondary-profile-img {
@@ -51,12 +78,17 @@ section {
         overflow: scroll;
     }
 
+    footer {
+        padding: 2vh;
+    }
+
     main {
-        margin: 0 auto;
+        margin: 0 5vw 0 max(5vw, 5vh);
         flex-direction: column;
     }
 
     section {
-        width: min(65vh, 85vw);
+        width: 90%;
+        margin: 1.5vh 0;
     }
 }

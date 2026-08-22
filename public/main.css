@@ -15,6 +15,11 @@ h1 {
     white-space: nowrap;
 }
 
+p {
+    margin: 0%;
+    padding: 0%;
+}
+
 @font-face {
     font-family: "Basically A Mono SemiBold";
     src: url(/public/BasicallyAMono-SemiBold.ttf);
