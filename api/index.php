@@ -20,7 +20,7 @@
 
                 <svg id="profile-desc" class="">
                     <circle id="profile-desc-background" r="50%" cx="15vh" cy="15vh" fill="tan"/>
-                    <text dominant-baseline="middle" text-anchor="middle" font-size="1.5em" x="15vh" y="15vh">
+                    <text shape-rendering="crispEdges" dominant-baseline="middle" text-anchor="middle" font-size="1.5em" x="15vh" y="15vh">
                         <tspan x="50%" y="40%">Hi! I'm Anderson.</tspan><tspan x="50%" y="60%">This is example text.</tspan>
                     </text>
                 </svg>

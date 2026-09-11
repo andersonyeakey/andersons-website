@@ -48,21 +48,43 @@ section {
 
 .contactinfo {
     align-items: center;
+    background-color: black;
     display: flex;
     flex-direction: row;
     gap: 1vh;
+    border-radius: 100vw;
+    padding: 1vh 1.5vh;
+    color: white;
+    text-decoration: none;
+    align-self: flex-start;
 }
 
-.contactinfo > div {
-    align-content: center;
-    background-color: rgb(81, 163, 163);
-    border-radius: 15px;
-    height: 0%;
-    padding: 1vh;
+#email-info:hover > svg > .gmail-red {
+    fill: #EA4335;
 }
 
-.contactinfo > svg {
-    cursor: pointer;
+#email-info:hover > svg > .gmail-yellow {
+    fill: #FBBC05;
+}
+
+#email-info:hover > svg > .gmail-green {
+    fill: #34A853;
+}
+
+#email-info:hover > svg > .gmail-darkred {
+    fill: #BB001B;
+}
+
+#email-info:hover > svg > .gmail-blue {
+    fill: #4285F4;
+}
+
+#github-info:hover > svg > path {
+    fill: #0FBF3E;
+}
+
+#linkedin-info:hover > svg > path {
+    fill: #0a66c2;
 }
 
 #secondary-profile-img {
@@ -83,12 +105,21 @@ section {
     }
 
     main {
-        margin: 0 5vw 0 max(5vw, 5vh);
+        margin: 0 5vw;
+        padding-bottom: 0;
         flex-direction: column;
     }
 
     section {
         width: 90%;
         margin: 1.5vh 0;
+    }
+
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5vw;
     }
 }
