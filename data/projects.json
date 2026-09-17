@@ -1,0 +1,41 @@
+[
+    {
+        "name": "BlueDocs",
+        "page_name": "/api/bluedocs.php",
+        "date_started": "2026-01-12",
+        "date_updated": "2026-04-30",
+        "category": "Professional",
+        "description": "A document storing website for the staff at GVSU I&R.",
+        "status": "Exited Development",
+        "github": "https://github.com/FuturEDlab/Blue_Docs/"
+    },
+    {
+        "name": "Jeopardy Game Builder",
+        "page_name": "/api/jeopardybuilder.php",
+        "date_started": "2026-05-16",
+        "date_updated": "2026-06-02",
+        "category": "Personal",
+        "description": "A website for creating Jeopardy-style games and playing them together on mobile devices.",
+        "status": "In Development"
+    },
+    {
+        "name": "Spherical Easel",
+        "page_name": "/api/sphericaleasel.php",
+        "date_started": "2025-09-15",
+        "date_updated": "2025-11-30",
+        "category": "Academic",
+        "description": "My senior capstone. Helped develop tests and new user settings. Development of full project is ongoing at GVSU.",
+        "status": "Exited Development",
+        "github": "https://github.com/gvsucis/f25-spherical-easel/"
+    },
+    {
+        "name": "Weather Tracker",
+        "page_name": "/api/weathertracker.php",
+        "date_started": "2026-06-23",
+        "date_updated": "2026-07-31",
+        "category": "Personal",
+        "description": "A weather tracker that implements various APIs to track weather events in the US and across the globe.",
+        "status": "Maintenance",
+        "current_version": "1.0.0"
+    }
+]

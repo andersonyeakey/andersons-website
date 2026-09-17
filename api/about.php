@@ -11,13 +11,6 @@
     </head>
 
     <body>
-        <!--<a href="/">Home</a>
-        <a href="/projects">Projects</a>
-        <a href="/demos">Demos</a>
-
-        <a href="mailto:andersonyeakey@gmail.com">andersonyeakey@gmail.com</a>
-        <a href="https://www.linkedin.com/in/anderson-yeakey/">LinkedIn</a>-->
-
         <h1>About Me</h1>
 
         <main>

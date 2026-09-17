@@ -1,0 +1,46 @@
+article {
+    height: 20vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    overflow-y: auto;
+}
+
+h2 {
+    border-bottom: solid 2px black;
+    padding-left: 5vw;
+    padding-right: 6px;
+    transform: translateY(-14px)
+}
+
+main {
+    margin: 3vw 10vw 5vw;
+}
+
+#timeline-bar {
+    position: absolute;
+    z-index: -1;
+    background-color: black;
+    width: 2px;
+    margin-left: 9px;
+}
+
+.timeline-dot {
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border: solid 6px white;
+    border-radius: 50%;
+}
+
+.project-info {
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+}
